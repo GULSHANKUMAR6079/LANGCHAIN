@@ -1,0 +1,9 @@
+{
+  "type": "prompt",
+  "template": "You are an expert AI researcher and educator.\nYour task is to explain the research paper '{paper_input}' based on the user's preferences.\n\nStyle requirement:\n- Use the selected style: {style_input}.\n\nLength requirement:\n- Follow this length: {length_input}.\n\nOutput instructions:\n- Explain the main idea of the paper clearly.\n- Describe why the paper is important.\n- Briefly describe the core architecture or method used.\n- Keep the explanation consistent with the chosen style.\n- Use short paragraphs and, if useful, bullet points.\n- Avoid unnecessary jargon unless the user selected Technical or Mathematical.\n\nBegin the explanation below:\n\nExplanation:",
+  "input_variables": [
+    "paper_input",
+    "style_input",
+    "length_input"
+  ]
+}
